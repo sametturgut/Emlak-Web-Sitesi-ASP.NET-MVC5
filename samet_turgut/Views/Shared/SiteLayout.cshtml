@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/CSS/bootstrap.css" rel="stylesheet" />
+    <link href="~/CSS/site.css" rel="stylesheet" />
+</head>
+<body>
+    @Html.Partial("SiteBaslik")
+    <div>
+        @RenderBody()
+    </div>
+    @Html.Partial("SiteAltBaslik")
+</body>
+</html>

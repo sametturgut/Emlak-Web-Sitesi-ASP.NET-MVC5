@@ -1,0 +1,112 @@
+﻿@model samet_turgut.Models.EmlakBilgi
+
+@{
+    Layout = "~/Views/Shared/SiteLayout.cshtml";
+}
+
+
+<div id="EmlakDetayOnFoto" class="container">
+    <div class="row">
+        <div class="col">
+            <img src="~/CSS/apartman.jpg" width="600" height="400" class="align-content-center" />
+        </div>
+    </div>
+</div>
+<div id="IlanBilgiOn" class="container">
+    <div class="row">
+        <div class="col">
+            <h6>Metrekare</h6>
+        </div>
+        <div class="col">
+            <h6>Oda Sayısı</h6>
+        </div>
+        <div class="col">
+            <h6>İlan Tarihi</h6>
+        </div>
+        <div>
+            <h6>İlan Numarası</h6>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col text-secondary align-content-center">
+            <h4>@Model.MetreKare</h4>
+        </div>
+        <div class="col text-secondary align-content-center">
+            <h4>@Model.OdaSayisi</h4>
+        </div>
+        <div class="col text-secondary align-content-center">
+            <h4>@Model.IlanTarihi</h4>
+        </div>
+        <div class="col text-secondary text-right">
+            <h4>@Model.IlanNo</h4>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row text-primary">
+        <h3>Özellikler</h3>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h6>İlan No:</h6>
+        </div>
+        <div class="col">
+            <h6>@Model.IlanNo</h6>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <h6>Metrekare:</h6>
+        </div>
+        <div class="col">
+            <h6>@Model.MetreKare</h6>
+        </div>
+        <div class="col">
+            <h6>Oda Sayısı:</h6>
+        </div>
+        <div class="col">
+            <h6>@Model.OdaSayisi</h6>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <h6>Banyo Sayısı:</h6>
+        </div>
+        <div class="col">
+            <h6>@Model.BanyoSayisi</h6>
+        </div>
+        <div class="col">
+            <h6>Bina Yaşı:</h6>
+        </div>
+        <div class="col">
+            <h6>@Model.BinaYasi</h6>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <h6>Mobilya Durumu:</h6>
+        </div>
+        <div class="col">
+            <h6>@Model.KullanimDurumu</h6>
+        </div>
+        <div class="col">
+            <h6>Kimden:</h6>
+        </div>
+        <div class="col">
+            <h6>@Model.Kimden</h6>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row text-primary">
+        <h3>Açıklama</h3>
+    </div>
+    <div class="row">
+        <h6>temiz ev.</h6>
+    </div>
+</div>

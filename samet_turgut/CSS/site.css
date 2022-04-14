@@ -1,0 +1,155 @@
+﻿body {
+    
+}
+
+.form-inline{
+    background-color:darkslategrey;
+    height:200px;
+    width:100%;
+    align-items:center;
+    padding:50px;
+    padding-left:550px;
+}
+#arama{
+    height:50px;
+    width:350px;
+}
+
+#araButon{
+    height:50px;
+    width:100px;
+}
+
+#OneCikanButon{
+    border-radius:15px;
+}
+
+#altBaslik{
+    background-color:darkslategrey;
+}
+
+.OrtaMenuCubuk{
+    background-color:darkslategrey;
+    width:90%;
+    height:10px;
+    border-radius:20px;
+}
+
+#OneCikanEvlerFoto{
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+#EnYeniilanlarFoto {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#EmlakDetayBirFoto{
+    align-items:center;
+    margin-top:25px;
+    margin-bottom:25px;
+    padding-left:250px;
+}
+
+#IlanBilgiBir{
+    margin-bottom:25px;
+}
+#EmlakDetayIkiFoto {
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 250px;
+}
+
+#IlanBilgiIki {
+    margin-bottom: 25px;
+}
+
+#EmlakDetayUcFoto {
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 250px;
+}
+
+#IlanBilgiUc {
+    margin-bottom: 25px;
+}
+
+#EmlakDetayDortFoto {
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 250px;
+}
+
+#IlanBilgiDort {
+    margin-bottom: 25px;
+}
+
+#EmlakDetayBesFoto {
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 250px;
+}
+
+#IlanBilgiBes {
+    margin-bottom: 25px;
+}
+
+#EmlakDetayAltiFoto {
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 250px;
+}
+
+#IlanBilgiAlti {
+    margin-bottom: 25px;
+}
+
+#EmlakDetayYediFoto {
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 250px;
+}
+
+#IlanBilgiYedi {
+    margin-bottom: 25px;
+}
+
+#EmlakDetaySekizFoto {
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 250px;
+}
+
+#IlanBilgiSekiz {
+    margin-bottom: 25px;
+}
+
+#EmlakDetayDokuzFoto {
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 250px;
+}
+
+#IlanBilgiDokuz {
+    margin-bottom: 25px;
+}
+
+#EmlakDetayOnFoto {
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 250px;
+}
+
+#IlanBilgiOn {
+    margin-bottom: 25px;
+}
